@@ -1,6 +1,4 @@
-# Nordic ECU Test Automation Lab
-
-Portfolio project for embedded software testing roles in Sweden, especially automotive, industrial IoT, and HIL/SIL test automation.
+# ECU Test Automation Lab
 
 The repo demonstrates a compact but realistic test setup:
 
@@ -13,10 +11,6 @@ The repo demonstrates a compact but realistic test setup:
 - GitHub Actions CI with JUnit test output
 
 The project is hardware-free by default, so recruiters and interviewers can run it immediately. The same harness shape can later be connected to a real board through UART, CAN, or a self-hosted runner.
-
-## Why This Is Relevant In Sweden
-
-Embedded testing roles in Sweden, especially around Gothenburg, Stockholm, Lund, and Linkoping, commonly mention:
 
 - Python and Pytest automation
 - HIL/SIL testing
@@ -87,16 +81,3 @@ The HIL controller can inject:
 - communication timeout
 - watchdog stall
 
-## Interview Talking Points
-
-This repo lets you explain:
-
-- how you separate tests from hardware using adapters
-- how fast SIL tests can run in CI before expensive HIL tests
-- how requirements map to test cases
-- how fault injection improves coverage beyond happy-path tests
-- how diagnostic logs and JUnit reports support release decisions
-
-## Inspired By, Not Copied From
-
-The idea is inspired by professional embedded testing patterns from projects such as Zephyr Twister, Ceedling/CMock, pytest-embedded, and HIL examples. The code and scenario here are original and intentionally small enough to understand in an interview.
