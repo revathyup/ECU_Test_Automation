@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nordic-ecu-test-automation-lab"
+version = "0.1.0"
+description = "Embedded ECU HIL/SIL test automation portfolio project"
+requires-python = ">=3.10"
+authors = [{ name = "Portfolio Project" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q --junitxml=reports/junit.xml"
