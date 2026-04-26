@@ -30,9 +30,9 @@ The suite includes deliberate negative tests:
 - communication timeout
 - reset behavior with active faults
 
-## Swedish Job Relevance
+## Learning Context
 
-This mirrors common Swedish embedded test assignments:
+The examples combine several common embedded testing topics:
 
 - HIL/SIL regression testing
 - ECU diagnostics and fault-code validation

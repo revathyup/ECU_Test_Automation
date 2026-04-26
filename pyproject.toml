@@ -5,9 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "nordic-ecu-test-automation-lab"
 version = "0.1.0"
-description = "Embedded ECU HIL/SIL test automation portfolio project"
+description = "Learning project for embedded ECU HIL/SIL test automation"
 requires-python = ">=3.10"
-authors = [{ name = "Portfolio Project" }]
+authors = [{ name = "Revathy" }]
 
 [tool.setuptools.packages.find]
 where = ["src"]
